@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Aliyun.Api.LOG</RootNamespace>
-    <AssemblyName>LOGSDK</AssemblyName>
+    <AssemblyName>Aliyun.LOGSDK</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -39,7 +39,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
-    <DocumentationFile>..\bin\net40\Debug\LOGSDK.xml</DocumentationFile>
+    <DocumentationFile>..\bin\net40\Debug\Aliyun.LOGSDK.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -50,7 +50,7 @@
     <DefineConstants>TRACE;SLS_SDK_40</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>..\bin\net40\Release\LOGSDK.xml</DocumentationFile>
+    <DocumentationFile>..\bin\net40\Release\Aliyun.LOGSDK.xml</DocumentationFile>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>

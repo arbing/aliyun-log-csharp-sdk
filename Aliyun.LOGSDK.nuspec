@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata schemaVersion="2">
+    <id>Aliyun.LOGSDK</id>
+    <version>0.6.0</version>
+    <title>Aliyun.LOGSDK</title>
+    <authors>arbing</authors>
+    <owners>arbing</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://github.com/arbing/aliyun-log-csharp-sdk</projectUrl>
+    <!--<iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Aliyun LOG SDK FOR csharp</description>
+    <summary>Aliyun LOG SDK FOR csharp</summary>
+    <releaseNotes>
+    </releaseNotes>
+    <tags>Aliyun LOG SDK</tags>
+  <dependencies>
+    <dependency id="Newtonsoft.Json" version="6.0.8" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System"/>
+      <frameworkAssembly assemblyName="System.Data"/>
+      <frameworkAssembly assemblyName="System.Xml"/>
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="bin\net40\Release\Google.ProtocolBuffers.dll" target="lib\net40" />
+    <file src="bin\net40\Release\Google.ProtocolBuffers.xml" target="lib\net40" />
+    <file src="bin\net40\Release\Google.ProtocolBuffers.Serialization.dll" target="lib\net40" />
+    <file src="bin\net40\Release\Google.ProtocolBuffers.Serialization.xml" target="lib\net40" />
+    <file src="bin\net40\Release\LZ4Sharp.dll" target="lib\net40" />
+    <file src="bin\net40\Release\zlibnet.dll" target="lib\net40" />
+    <file src="bin\net40\Release\zlib32.dll" target="bin\zlib32.dll" />
+    <file src="bin\net40\Release\zlib64.dll" target="bin\zlib64.dll" />
+    <file src="Aliyun.LOGSDK.targets" target="build\Aliyun.LOGSDK.targets" />
+    <file src="bin\net40\Release\Aliyun.LOGSDK.dll" target="lib\net40" />
+    <file src="bin\net40\Release\Aliyun.LOGSDK.pdb" target="lib\net40" />
+    <file src="bin\net40\Release\Aliyun.LOGSDK.xml" target="lib\net40" />
+  </files>  
+</package>

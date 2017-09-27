@@ -3,6 +3,10 @@
 - [阿里云LOG官方网站](https://www.aliyun.com/product/sls/)
 - [阿里云LOG官方论坛](https://yq.aliyun.com/groups/50)
 - 阿里云官方技术支持：[提交工单](https://workorder.console.aliyun.com/#/ticket/createIndex)
+- NuGet：[![Aliyun.LOGSDK][1.1]][1.2]
+
+[1.1]: https://buildstats.info/nuget/Aliyun.LOGSDK
+[1.2]: https://www.nuget.org/packages/Aliyun.LOGSDK
 
 # 使用例子如下：
 ```

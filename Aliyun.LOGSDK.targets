@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="zlibCopyAnyCPU" BeforeTargets="AfterBuild">
+    <ItemGroup>
+      <zlibBinaries Include="$(MSBuildThisFileDirectory)..\bin\*.*" />
+    </ItemGroup>
+
+    <Message Importance="high" Text="-- zlib.targets: Copying files from $(MSBuildThisFileDirectory)..\bin to $(TargetDir)" />
+    <Copy SourceFiles="@(zlibBinaries)" DestinationFolder="$(TargetDir)" SkipUnchangedFiles="true" />
+  </Target>
+</Project>

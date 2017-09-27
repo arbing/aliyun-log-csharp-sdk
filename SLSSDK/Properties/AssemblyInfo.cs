@@ -35,7 +35,7 @@ using System.Runtime.InteropServices;
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 [assembly: Guid("4328d16b-4359-4acd-a34e-d5c0224572c0")]
-[assembly: InternalsVisibleTo("SLSSDKTest")]
+[assembly: InternalsVisibleTo("LOGSDKTest")]
 
 // Version information for an assembly consists of the following four values:
 //
