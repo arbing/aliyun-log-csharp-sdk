@@ -1,4 +1,4 @@
-# Aliyun LOG SDK FOR csharp
+# 阿里云日志服务 SDK .NET 版
 
 - [阿里云LOG官方网站](https://www.aliyun.com/product/sls/)
 - [阿里云LOG官方论坛](https://yq.aliyun.com/groups/50)

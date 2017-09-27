@@ -10,8 +10,8 @@
     <projectUrl>https://github.com/arbing/aliyun-log-csharp-sdk</projectUrl>
     <!--<iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Aliyun LOG SDK FOR csharp</description>
-    <summary>Aliyun LOG SDK FOR csharp</summary>
+    <description>阿里云日志服务 SDK .NET 版 Aliyun LOG SDK for .NET</description>
+    <summary>阿里云日志服务 SDK .NET 版 Aliyun LOG SDK for .NET</summary>
     <releaseNotes>
     </releaseNotes>
     <tags>Aliyun LOG SDK</tags>
